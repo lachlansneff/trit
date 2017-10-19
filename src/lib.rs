@@ -15,6 +15,18 @@ mod tests {
     }
 }
 
+/// # the trit crate
+/// A crate that provides a trinary type
+
+/// ## Usage
+/// ```
+/// // Creates a type that is both true and false
+/// let both = Trit::Both;
+/// // both.is_true() == true
+/// // both.is_false() == true
+/// // both.only_true() == false
+/// // both.only_false() == false
+/// ```
 
 /// Used to denote a trinary value (True, False, or Both)
 #[derive(PartialEq)]
@@ -25,19 +37,6 @@ pub enum Trit {
 }
 
 impl Trit {
-	/// # the trit crate
-	/// A crate that provides a trinary type
-
-	/// ## Usage
-	/// ```
-	/// // Creates a type that is both true and false
-	/// let both = Trit::Both;
-	/// // both.is_true() == true
-	/// // both.is_false() == true
-	/// // both.only_true() == false
-	/// // both.only_false() == false
-	/// ```
-	
 	/// Returns true if self is True or Both
 	pub fn is_true(self) -> bool {
 		self == Trit::True || self == Trit::Both
