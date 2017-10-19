@@ -1,6 +1,6 @@
 [package]
 name = "trit"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Lachlan Sneff <lachlan.sneff@gmail.com>"]
 description = "Trinary crate"
 license = "MIT"
