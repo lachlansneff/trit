@@ -47,15 +47,17 @@ impl Trit {
 		self == Trit::False || self == Trit::Both
 	}
 
-	/// Tests if 
+	/// Tests if self is True
 	pub fn only_true(self) -> bool {
 		self == Trit::True
 	}
 
+	/// Tests if self is False
 	pub fn only_false(self) -> bool {
 		self == Trit::False
 	}
 
+	/// Tests if self is both
 	pub fn is_both(self) -> bool {
 		self == Trit::Both
 	}
