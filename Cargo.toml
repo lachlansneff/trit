@@ -2,5 +2,6 @@
 name = "trit"
 version = "0.1.0"
 authors = ["Lachlan Sneff <lachlan.sneff@gmail.com>"]
+repository = "https://github.com/lachlansneff/trit"
 
 [dependencies]
